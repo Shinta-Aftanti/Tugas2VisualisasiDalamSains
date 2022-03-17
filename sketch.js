@@ -26,7 +26,7 @@ class Walker {
   constructor(){
     this.location = createVector(random (width/4), random(height/4));
     this.velocity = createVector(0,0);
-    this.acceleration = createVector(-0.01,0.01);
+    this.acceleration = createVector(0.01,-0.01);
 
   }
   
